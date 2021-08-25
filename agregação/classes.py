@@ -4,7 +4,7 @@ class Carrinho_De_Compras:
         
     def inserir_produto(self, produto):
         self.produtos.append(produto)
-     
+    
     def listar_produtos(self):
         for produto in self.produtos:
             print(f'{produto.nome} - R${produto.valor}')

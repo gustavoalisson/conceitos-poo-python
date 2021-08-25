@@ -27,7 +27,7 @@ class Pessoa:
             return
         print(f'{self.nome} parou de falar.')
         self.falando = False
-           
+                
     def comer(self, alimento):
         if self.comendo:
             print(f'{self.nome} já está comendo')
