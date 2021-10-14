@@ -1,6 +1,5 @@
 
 # ! Importe criar nomes de classe / atributos com substantivos e nomes de metodos com verbos
-
 class Pessoa:
     def __init__(self, nome: str, idade: int) -> None:
         self.nome = nome
