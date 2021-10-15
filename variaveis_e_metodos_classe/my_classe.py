@@ -1,3 +1,6 @@
+# Um método de classe é um método vinculado à classe e não ao objeto da classe.
+# Eles têm acesso ao estado da classe, pois leva um parâmetro de classe que aponta para a classe e não para a instância do objeto.
+# Ele pode modificar um estado de classe que se aplicaria a todas as instâncias da classe. Por exemplo, ele pode modificar uma variável de classe que será aplicável a todas as instâncias.
 class MinhaClasse:    
     # contexto de classe, "geral"
     estatico = 'Cachorro'
