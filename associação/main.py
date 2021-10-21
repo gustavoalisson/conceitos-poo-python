@@ -1,5 +1,5 @@
 
-# * Associação - Usa
+# * Associação - Usa (Quando um objeto navega para a utilização de outro objeto)
 # * Agregação - Tem
 # * Composição - É dono
 # * Herança - É
