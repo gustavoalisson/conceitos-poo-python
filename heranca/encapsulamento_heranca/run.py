@@ -12,10 +12,6 @@
 # * pública da API ou de qualquer código Python, seja uma função, um método ou um 
 # * membro de dado.
 
-# OBSERVAÇÃO 
-
-# * No Python é possível acessar um protected pelo objeto, mas o _ é usado como 
-# * uma convenção entre Devs que não pode ser acessado em um objeto.
 class DatabaseConn:
     
     def __init__(self) -> None:
@@ -56,3 +52,8 @@ repo.select()
 # * Classe      x            x             x
 # * Herança                  x             x     
 # * Objeto                                 x     
+
+# ? OBSERVAÇÃO 
+
+# * No Python é possível acessar um protected pelo objeto, mas o _ é usado como 
+# * uma convenção entre Devs que não pode ser acessado em um objeto.
