@@ -1,6 +1,5 @@
 from typing import Type
 from interfaces.formas import FormasInterface
-from terrenos.retangular import TerrenoRetangular
 
 class Engenheiro:
     
@@ -15,7 +14,4 @@ class Engenheiro:
         area = terreno.get_area()
         print(f'{self.nome} mediu a area {area}')
 
-terreno = TerrenoRetangular(10 , 10)
-engenheiro = Engenheiro('Alisson')
-
-engenheiro.medir_terreno(terreno)        
+      
